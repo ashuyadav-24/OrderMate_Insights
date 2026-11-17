@@ -1,7 +1,7 @@
 # OrderMate – Fieldwork Notes
 
 ## 1. Place and Observation Session
-- **Location:** Hostel L (Block E & Block F), Main Hostel Security Gate & Residential Wing Corridors, NIT Jamshedpur
+- **Location:** Hostel K (Block E & Block F), Main Hostel Security Gate & Residential Wing Corridors, NIT Jamshedpur
 - **Date & Time:** 16 November 2026, 23:00 to 17 November 2026, 01:00 (Observation window: 23:10 – 00:50; Follow-up morning verification: 17 November 2026, 10:30 – 11:15)
 - **Context:** Peak late-night quick-commerce delivery hours when students order study fuel, coffee, milk, noodles, and emergency supplies, followed by morning follow-up discussions on checkout costs.
 
@@ -14,13 +14,13 @@
 
 ### Photo 2: Fieldwork Data Collection & Problem Verification
 ![Fieldwork Interview Session 2](fieldwork_photo_2.jpg)
-- **Description:** Interview discussion regarding delivery fees, small-cart penalties, and how students coordinate purchases in Hostel L.
-- **Hardware Timestamp Watermark:** *17/11/2026 10:39* (captured on-site in Hostel L).
+- **Description:** Interview discussion regarding delivery fees, small-cart penalties, and how students coordinate purchases in Hostel K.
+- **Hardware Timestamp Watermark:** *17/11/2026 10:39* (captured on-site in Hostel K).
 
 ---
 
 ## 3. Real-Person Interview
-- **Person Name:** Aman Singh (Student, MCA 3rd Year, Resident of Hostel L, Block E, Room E601)
+- **Person Name:** Aman Singh (Student, MCA 3rd Year, Resident of Hostel K, Block E, Room E601)
 - **Role:** Regular late-night quick-commerce user (Flipkart Minutes & Blinkit)
 - **3 Things Aman Said:**
   1. *"I only wanted to make some late-night coffee while studying, so I just needed a small 50g Nescafe and 500ml milk (about ₹73). But the platform was slapping on ₹65 in combined delivery, small-cart penalty, handling, and night surge fees—almost doubling the cost."*
@@ -30,6 +30,6 @@
   - Over half the students surveyed (13 out of 25) chose to spend **₹135 to ₹240 extra** on impulse snacks, oversized coffee jars, and surplus beverages rather than paying a ₹50 delivery surcharge. Across 25 students in one hostel alone, this led to **₹2,834 in avoidable financial loss in a single night**.
 
 ## 4. How the Data Was Collected
-- Surveyed 25 students across Hostel L (Block E rooms E601–E615 and Block F rooms F001–F016) right after they placed or received their orders between 11:10 PM and 12:50 AM.
+- Surveyed 25 students across Hostel K (Block E rooms E601–E615 and Block F rooms F001–F016) right after they placed or received their orders between 11:10 PM and 12:50 AM.
 - Recorded platform used, actual items needed, base cart value, coping strategy (`PAID_CHARGES` vs `ADDED_UNNECESSARY_ITEMS`), itemized fees, extra spending on unneeded items, and calculated the net avoidable loss.
 - Raw records are structured in `data/data.csv`.

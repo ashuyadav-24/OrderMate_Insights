@@ -104,7 +104,7 @@ Dual-source analytical dashboard:
 
 ## 4. Fieldwork Dataset (`data/data.csv`)
 
-Collected on-site in **Hostel L (Block E and Block F)** during peak late-night ordering hours (23:10 – 00:50):
+Collected on-site in **Hostel K (Block E and Block F)** during peak late-night ordering hours (23:10 – 00:50):
 - **Total entries:** 25 genuine student orders (including target user Aman Singh, Keshav, Amarnath, Neelkanth, etc.).
 - **Strategy Split:**
   - `PAID_CHARGES`: 12 students (paid an average of **₹49.42** in solo delivery, small-cart, handling, and surge fees).

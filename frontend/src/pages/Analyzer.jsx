@@ -30,7 +30,7 @@ const VERIFIED_DEFAULT_FIELDWORK = {
     source: 'Assignment Fieldwork (data/data.csv)',
     verifiedEntries: 25,
     timeWindow: '16 Nov 23:10 to 17 Nov 00:50 (Late-night quick-commerce peak)',
-    hostelsSurveyed: ['Hostel L']
+    hostelsSurveyed: ['Hostel K']
   },
   summary: {
     totalStudentsSurveyed: 25,
@@ -59,10 +59,10 @@ const VERIFIED_DEFAULT_FIELDWORK = {
     { platform: 'Swiggy Instamart', ordersCount: 7, totalAvoidableLoss: 857, avgBaseCart: 99.14, avgAvoidableLoss: 122.43 }
   ],
   hostelsSummary: [
-    { hostel: 'Hostel L', ordersCount: 25, totalAvoidableLoss: 2834, avgLossPerOrder: 113.36 }
+    { hostel: 'Hostel K', ordersCount: 25, totalAvoidableLoss: 2834, avgLossPerOrder: 113.36 }
   ],
   limitations: [
-    'Geographic scope is focused on Hostel L (Block E and Block F) during late night hours (23:10 - 00:50).',
+    'Geographic scope is focused on Hostel K (Block E and Block F) during late night hours (23:10 - 00:50).',
     'Assumes students are comfortable coordinating deliveries at the hostel gate.',
     'Items added to avoid fees are based on self-reported intent by students immediately post-purchase.',
     'Does not account for rare platform promotions or occasional dynamic surge fluctuations.'
@@ -349,13 +349,13 @@ export const Analyzer = () => {
           <div className="p-6 rounded-3xl bg-blue-950 text-white shadow-xl space-y-3">
             <div className="flex items-center gap-2 text-blue-300 text-xs font-bold uppercase tracking-wider">
               <FileSpreadsheet className="w-4 h-4" />
-              <span>Assignment Fieldwork Evidence (25 Genuine Records - Hostel L)</span>
+              <span>Assignment Fieldwork Evidence (25 Genuine Records - Hostel K)</span>
             </div>
             <h2 className="text-xl font-extrabold tracking-tight">
-              Late-Night Quick-Commerce Fieldwork Analysis: Hostel L (Block E & F)
+              Late-Night Quick-Commerce Fieldwork Analysis: Hostel K (Block E & F)
             </h2>
             <p className="text-xs text-blue-100/90 max-w-2xl leading-relaxed">
-              Surveyed 25 students across Hostel L (Block E rooms E601–E615 and Block F rooms F001–F016) between 23:10 and 00:50. Records their actual cart values, solo checkout fees, and unnecessary impulse items added just to cross free delivery thresholds.
+              Surveyed 25 students across Hostel K (Block E rooms E601–E615 and Block F rooms F001–F016) between 23:10 and 00:50. Records their actual cart values, solo checkout fees, and unnecessary impulse items added just to cross free delivery thresholds.
             </p>
           </div>
 
@@ -449,7 +449,7 @@ export const Analyzer = () => {
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="font-bold text-slate-900 text-sm">Collected Fieldwork Records (data.csv)</h3>
-                <p className="text-[11px] text-slate-500">25 authentic student entries from Hostel L (Block E and Block F)</p>
+                <p className="text-[11px] text-slate-500">25 authentic student entries from Hostel K (Block E and Block F)</p>
               </div>
             </div>
 

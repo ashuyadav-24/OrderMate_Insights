@@ -6,7 +6,7 @@
 - **Hostel Cluster & Delivery Gate Architecture:** The senior mega hostel complex comprises **Hostel I, Hostel J, Hostel K, and Hostel L**, housing over 2,500 senior B.Tech, MCA, and M.Tech students. Each individual hostel has a designated security gate where delivery riders arrive. Students across different blocks (e.g., Blocks A–E in Hostel K) walk down to their hostel's main gate to collect their parcels. Because Hostels I, J, K, and L are situated adjacent to one another in the residential belt, walking between adjacent hostel gates takes only 2–3 minutes, making cross-hostel coordination highly viable.
 - **Target Person:** Aman Singh
 - **Academic Standing:** 3rd Year MCA Student
-- **Residence:** Hostel L, Block E, Room E601
+- **Residence:** Hostel K, Block E, Room E601
 - **Real-World Persona Workflow:** Aman studies late into the night working on placement coding rounds, software projects, and semester coursework. Between 11:00 PM and 1:30 AM, he frequently needs simple essentials—specifically a small sachet/pouch of instant coffee and milk to prepare coffee for late-night study sessions.
 - **The Core Friction (The Cart-Stuffing Trap):**
   - Aman only needed **1x small coffee (₹35–₹45)** and **1x Amul Toned Milk 500ml (₹28)**, amounting to a base cart of **₹63–₹73**.
@@ -25,7 +25,7 @@
 1. Senior hostel students at NIT Jamshedpur (Hostels I, J, K, L) rely heavily on quick-commerce apps (Blinkit, Flipkart Minutes, Swiggy Instamart) for daily essentials after campus food outlets close at 10 PM.
 2. For small essential orders (₹40–₹90), platforms levy multiple checkout surcharges (delivery, small-cart penalty, handling, night surge), raising checkout prices by 60% to over 100%.
 3. To bypass these fees, students fall into the "threshold inflation trap," buying ₹130–₹200 of extra unwanted items (larger coffee packs, surplus milk, impulse snacks) solely to hit the free-delivery tier.
-4. Multiple students within the same hostel blocks (Blocks E & F in Hostel L) or neighboring hostels (I, J, K) routinely place fragmented, solo orders to the same delivery gate within the same 15-to-20-minute window without knowing of each other's purchases.
+4. Multiple students within the same hostel blocks (Blocks E & F in Hostel K) or neighboring hostels (I, J, L) routinely place fragmented, solo orders to the same delivery gate within the same 15-to-20-minute window without knowing of each other's purchases.
 5. Students lack a dedicated, hyper-local coordination tool to discover nearby shopping invitations in real time, pool their carts to satisfy platform thresholds together, and eliminate avoidable losses.
 
 ---
@@ -87,8 +87,8 @@ Accepting platform fees as an isolated buyer fails because:
 ## 6. The Proposed Solution: OrderMate
 **OrderMate** (*"Better orders. Shared savings."*) is a location-aware, time-limited group ordering application designed specifically for college hostel clusters.
 
-- **Hostel-Priority Discovery:** When a student like Aman Singh needs coffee and milk, he can either browse open orders from Hostel L or publish an invitation for Blinkit / Flipkart Minutes with a custom 20-to-50-minute expiration window.
-- **Threshold Matching:** Displays the exact cart amount still required (e.g., *“Needs ₹115 more for free delivery”*). Nearby students in Hostel L or neighboring hostels can submit join requests with their specific items and expected contribution.
+- **Hostel-Priority Discovery:** When a student like Aman Singh needs coffee and milk, he can either browse open orders from Hostel K or publish an invitation for Blinkit / Flipkart Minutes with a custom 20-to-50-minute expiration window.
+- **Threshold Matching:** Displays the exact cart amount still required (e.g., *“Needs ₹115 more for free delivery”*). Nearby students in Hostel K or neighboring hostels can submit join requests with their specific items and expected contribution.
 - **Dedicated Real-Time Chatroom:** Once accepted, participants access an authenticated Socket.IO chatroom to confirm item variants and arrange handover at the hostel gate.
 - **Verified Mathematical Savings:**
   $$\text{Individual Confirmed Savings} = \text{Individual Solo Charges Avoided} - \text{Individual Fair Share of Combined Charges}$$

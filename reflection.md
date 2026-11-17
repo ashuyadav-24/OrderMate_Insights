@@ -5,7 +5,7 @@
 When I started this 24-hour sprint, I thought the main problem students
 faced while ordering groceries was the delivery charge. My initial idea
 was simple: if students could share the delivery fee, everyone would
-save some money. But after visiting Hostel L around 11:30 PM and talking
+save some money. But after visiting Hostel K around 11:30 AM and talking
 to Aman Singh in Room E601, I realised that I hadn't understood the
 problem properly.
 
@@ -36,7 +36,7 @@ because they seemed useful on paper. But after thinking about how things
 actually work in a hostel, I don't think they are necessary. In Hostel
 K, students can reach the main gate within a couple of minutes. There is
 no real reason to track someone's live location when simply mentioning
-"Hostel L, Block E" would be enough.
+"Hostel K, Block E" would be enough.
 
 I would also avoid integrating a payment gateway for now. Almost
 everyone already uses GPay or PhonePe. The person who creates the order
