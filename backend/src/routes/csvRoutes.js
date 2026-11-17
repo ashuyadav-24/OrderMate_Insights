@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { getFieldworkAnalysis } = require('../controllers/csvController');
-const { protect } = require('../middleware/auth');
 
-router.get('/fieldwork-analysis', protect, getFieldworkAnalysis);
+// Fieldwork analysis dataset endpoint (publicly available for research & analytics)
+router.get('/fieldwork-analysis', getFieldworkAnalysis);
 
 module.exports = router;
