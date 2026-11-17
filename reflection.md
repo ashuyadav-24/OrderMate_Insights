@@ -5,7 +5,7 @@
 When I started this 24-hour sprint, I thought the main problem students
 faced while ordering groceries was the delivery charge. My initial idea
 was simple: if students could share the delivery fee, everyone would
-save some money. But after visiting Hostel K around 11:30 AM and talking
+save some money. But after visiting Hostel K between 10:00 AM and 11:30 AM and talking
 to Aman Singh in Room E601, I realised that I hadn't understood the
 problem properly.
 

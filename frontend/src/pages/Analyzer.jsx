@@ -29,7 +29,7 @@ const VERIFIED_DEFAULT_FIELDWORK = {
   metadata: {
     source: 'Assignment Fieldwork (data/data.csv)',
     verifiedEntries: 25,
-    timeWindow: '16 Nov 23:10 to 17 Nov 00:50 (Late-night quick-commerce peak)',
+    timeWindow: '17 Nov 10:00 AM to 11:30 AM (Fieldwork Session)',
     hostelsSurveyed: ['Hostel K']
   },
   summary: {
@@ -62,7 +62,7 @@ const VERIFIED_DEFAULT_FIELDWORK = {
     { hostel: 'Hostel K', ordersCount: 25, totalAvoidableLoss: 2834, avgLossPerOrder: 113.36 }
   ],
   limitations: [
-    'Geographic scope is focused on Hostel K (Block E and Block F) during late night hours (23:10 - 00:50).',
+    'Geographic scope is focused on Hostel K (Block E and Block F) during the fieldwork session (10:00 AM - 11:30 AM).',
     'Assumes students are comfortable coordinating deliveries at the hostel gate.',
     'Items added to avoid fees are based on self-reported intent by students immediately post-purchase.',
     'Does not account for rare platform promotions or occasional dynamic surge fluctuations.'
@@ -355,7 +355,7 @@ export const Analyzer = () => {
               Late-Night Quick-Commerce Fieldwork Analysis: Hostel K (Block E & F)
             </h2>
             <p className="text-xs text-blue-100/90 max-w-2xl leading-relaxed">
-              Surveyed 25 students across Hostel K (Block E rooms E601–E615 and Block F rooms F001–F016) between 23:10 and 00:50. Records their actual cart values, solo checkout fees, and unnecessary impulse items added just to cross free delivery thresholds.
+              Surveyed 25 students across Hostel K (Block E rooms E601–E615 and Block F rooms F001–F016) between 10:00 AM and 11:30 AM. Records their actual cart values, solo checkout fees, and unnecessary impulse items added just to cross free delivery thresholds.
             </p>
           </div>
 

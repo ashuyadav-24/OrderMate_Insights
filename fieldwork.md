@@ -2,8 +2,8 @@
 
 ## 1. Place and Observation Session
 - **Location:** Hostel K (Block E & Block F), Main Hostel Security Gate & Residential Wing Corridors, NIT Jamshedpur
-- **Date & Time:** 16 November 2026, 23:00 to 17 November 2026, 01:00 (Observation window: 23:10 – 00:50; Follow-up morning verification: 17 November 2026, 10:30 – 11:15)
-- **Context:** Peak late-night quick-commerce delivery hours when students order study fuel, coffee, milk, noodles, and emergency supplies, followed by morning follow-up discussions on checkout costs.
+- **Date & Time:** 17 November 2026, 10:00 AM – 11:30 AM
+- **Context:** On-site fieldwork and interview session at Hostel K during morning quick-commerce delivery hours (10:00 AM – 11:30 AM) when students order daily food essentials, morning coffee, milk, bread, eggs, and groceries.
 
 ## 2. Timestamped Fieldwork Photos
 
@@ -30,6 +30,6 @@
   - Over half the students surveyed (13 out of 25) chose to spend **₹135 to ₹240 extra** on impulse snacks, oversized coffee jars, and surplus beverages rather than paying a ₹50 delivery surcharge. Across 25 students in one hostel alone, this led to **₹2,834 in avoidable financial loss in a single night**.
 
 ## 4. How the Data Was Collected
-- Surveyed 25 students across Hostel K (Block E rooms E601–E615 and Block F rooms F001–F016) right after they placed or received their orders between 11:10 PM and 12:50 AM.
+- Surveyed 25 students across Hostel K (Block E rooms E601–E615 and Block F rooms F001–F016) right after they placed or received their orders during the morning session between 10:00 AM and 11:30 AM.
 - Recorded platform used, actual items needed, base cart value, coping strategy (`PAID_CHARGES` vs `ADDED_UNNECESSARY_ITEMS`), itemized fees, extra spending on unneeded items, and calculated the net avoidable loss.
 - Raw records are structured in `data/data.csv`.
