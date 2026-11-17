@@ -1,6 +1,6 @@
 # OrderMate – Research
 
-## 1. The problem (5 lines)
+## 1. The problem 
 
 1. Hostel students use quick-commerce apps such as Blinkit, Zepto and Swiggy Instamart to buy daily essentials like milk, bread and eggs.
 2. When a student needs only one or two items, delivery or other checkout charges can make the small order more expensive.
