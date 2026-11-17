@@ -104,13 +104,13 @@ Dual-source analytical dashboard:
 
 ## 4. Fieldwork Dataset (`data/data.csv`)
 
-Collected on-site across Hostels J, K, and L during peak late-night ordering hours (23:10 – 00:50):
-- **Total entries:** 22 genuine student orders.
+Collected on-site in **Hostel L (Block E and Block F)** during peak late-night ordering hours (23:10 – 00:50):
+- **Total entries:** 25 genuine student orders (including target user Aman Singh, Keshav, Amarnath, Neelkanth, etc.).
 - **Strategy Split:**
-  - `PAID_CHARGES`: 10 students (paid an average of **₹56.70** in solo delivery, small-cart, handling, and surge fees).
-  - `ADDED_UNNECESSARY_ITEMS`: 12 students (spent an average of **₹171.25** extra on junk snacks and drinks just to reach the ₹199 threshold).
-- **Total Avoidable Loss in 1 Night:** **₹2,622** across 22 students.
-- **Projected Group Savings:** **₹2,512 net saved** if grouped via OrderMate.
+  - `PAID_CHARGES`: 12 students (paid an average of **₹49.42** in solo delivery, small-cart, handling, and surge fees).
+  - `ADDED_UNNECESSARY_ITEMS`: 13 students (spent an average of **₹172.38** extra on surplus items like larger coffee jars and extra milk sachets to cross the ₹199 threshold).
+- **Total Avoidable Loss in 1 Night:** **₹2,834** across 25 students.
+- **Projected Group Savings:** **₹2,709 net saved** (96% expense reduction) if grouped via OrderMate.
 
 ---
 

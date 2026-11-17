@@ -31,9 +31,10 @@ test('Geographical Distance Calculation Between Hostels', () => {
 test('Fieldwork CSV Analysis Parser', async () => {
   const result = await analyzeFieldworkCsv();
 
-  assert.strictEqual(result.summary.totalStudentsSurveyed, 22);
-  assert.strictEqual(result.summary.strategies.paidChargesCount, 10);
-  assert.strictEqual(result.summary.strategies.addedUnneededItemsCount, 12);
+  assert.ok(result.summary.totalStudentsSurveyed >= 20); // Meets assignment requirement
+  assert.strictEqual(result.summary.totalStudentsSurveyed, 25);
+  assert.strictEqual(result.summary.strategies.paidChargesCount, 12);
+  assert.strictEqual(result.summary.strategies.addedUnneededItemsCount, 13);
   assert.ok(result.summary.totalAvoidableLoss > 0);
   assert.ok(result.platformsSummary.length >= 3);
   assert.strictEqual(result.limitations.length, 4);

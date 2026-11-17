@@ -24,47 +24,45 @@ import {
   Info
 } from 'lucide-react';
 
-// Verified 22 Fieldwork Records baseline (guarantees accurate metrics even before API resolves)
+// Verified 25 Fieldwork Records baseline (guarantees accurate metrics even before API resolves)
 const VERIFIED_DEFAULT_FIELDWORK = {
   metadata: {
     source: 'Assignment Fieldwork (data/data.csv)',
-    verifiedEntries: 22,
+    verifiedEntries: 25,
     timeWindow: '16 Nov 23:10 to 17 Nov 00:50 (Late-night quick-commerce peak)',
-    hostelsSurveyed: ['Hostel K', 'Hostel J', 'Hostel L']
+    hostelsSurveyed: ['Hostel L']
   },
   summary: {
-    totalStudentsSurveyed: 22,
-    avgBaseCartValue: 66.32,
-    totalAvoidableLoss: 2617,
-    avgAvoidableLossPerStudent: 118.95,
+    totalStudentsSurveyed: 25,
+    avgBaseCartValue: 76,
+    totalAvoidableLoss: 2834,
+    avgAvoidableLossPerStudent: 113.36,
     strategies: {
-      paidChargesCount: 10,
-      paidChargesPercentage: 45,
-      totalFeesPaid: 557,
-      avgFeePaid: 55.7,
-      addedUnneededItemsCount: 12,
-      addedUnneededPercentage: 55,
-      totalUnneededSpend: 2060,
-      avgUnneededSpend: 171.67
+      paidChargesCount: 12,
+      paidChargesPercentage: 48,
+      totalFeesPaid: 593,
+      avgFeePaid: 49.42,
+      addedUnneededItemsCount: 13,
+      addedUnneededPercentage: 52,
+      totalUnneededSpend: 2241,
+      avgUnneededSpend: 172.38
     },
     projectedImpact: {
-      simulatedGroupChargesPaid: 110,
-      projectedNetSavingsThroughOrderMate: 2507,
+      simulatedGroupChargesPaid: 125,
+      projectedNetSavingsThroughOrderMate: 2709,
       projectedSavingsPercentage: 96
     }
   },
   platformsSummary: [
-    { platform: 'Flipkart Minutes', ordersCount: 9, totalAvoidableLoss: 1055, avgBaseCart: 57.33, avgAvoidableLoss: 117.22 },
-    { platform: 'Blinkit', ordersCount: 7, totalAvoidableLoss: 731, avgBaseCart: 61.29, avgAvoidableLoss: 104.43 },
-    { platform: 'Swiggy Instamart', ordersCount: 6, totalAvoidableLoss: 831, avgBaseCart: 85.67, avgAvoidableLoss: 138.5 }
+    { platform: 'Flipkart Minutes', ordersCount: 10, totalAvoidableLoss: 1085, avgBaseCart: 62.6, avgAvoidableLoss: 108.5 },
+    { platform: 'Blinkit', ordersCount: 8, totalAvoidableLoss: 776, avgBaseCart: 66.88, avgAvoidableLoss: 97 },
+    { platform: 'Swiggy Instamart', ordersCount: 7, totalAvoidableLoss: 857, avgBaseCart: 99.14, avgAvoidableLoss: 122.43 }
   ],
   hostelsSummary: [
-    { hostel: 'Hostel K', ordersCount: 5, totalAvoidableLoss: 271, avgLossPerOrder: 54.2 },
-    { hostel: 'Hostel J', ordersCount: 12, totalAvoidableLoss: 1491, avgLossPerOrder: 124.25 },
-    { hostel: 'Hostel L', ordersCount: 5, totalAvoidableLoss: 855, avgLossPerOrder: 171 }
+    { hostel: 'Hostel L', ordersCount: 25, totalAvoidableLoss: 2834, avgLossPerOrder: 113.36 }
   ],
   limitations: [
-    'Geographic scope is limited to 3 boys hostels (Hostel J, K, L) during late night hours (23:10 - 00:50).',
+    'Geographic scope is focused on Hostel L (Block E and Block F) during late night hours (23:10 - 00:50).',
     'Assumes students are comfortable coordinating deliveries at the hostel gate.',
     'Items added to avoid fees are based on self-reported intent by students immediately post-purchase.',
     'Does not account for rare platform promotions or occasional dynamic surge fluctuations.'
@@ -351,13 +349,13 @@ export const Analyzer = () => {
           <div className="p-6 rounded-3xl bg-blue-950 text-white shadow-xl space-y-3">
             <div className="flex items-center gap-2 text-blue-300 text-xs font-bold uppercase tracking-wider">
               <FileSpreadsheet className="w-4 h-4" />
-              <span>Assignment Fieldwork Evidence (22 Genuine Records)</span>
+              <span>Assignment Fieldwork Evidence (25 Genuine Records - Hostel L)</span>
             </div>
             <h2 className="text-xl font-extrabold tracking-tight">
-              Late-Night Quick-Commerce Fieldwork Analysis
+              Late-Night Quick-Commerce Fieldwork Analysis: Hostel L (Block E & F)
             </h2>
             <p className="text-xs text-blue-100/90 max-w-2xl leading-relaxed">
-              Surveyed 22 students across Hostels J, K, and L between 23:10 and 00:50. Records their actual cart values, solo checkout fees, and unnecessary impulse items added just to cross free delivery thresholds.
+              Surveyed 25 students across Hostel L (Block E rooms E601–E615 and Block F rooms F001–F016) between 23:10 and 00:50. Records their actual cart values, solo checkout fees, and unnecessary impulse items added just to cross free delivery thresholds.
             </p>
           </div>
 
@@ -376,7 +374,7 @@ export const Analyzer = () => {
               <div className="text-3xl font-black text-rose-600">
                 ₹{fwSummary.totalAvoidableLoss}
               </div>
-              <span className="text-[10px] text-slate-400 mt-1 block">Wasted in 1 night across 22 orders</span>
+              <span className="text-[10px] text-slate-400 mt-1 block">Wasted in 1 night across 25 orders</span>
             </div>
 
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
@@ -412,7 +410,7 @@ export const Analyzer = () => {
                   </span>
                 </div>
                 <p className="text-[11px] text-slate-600">
-                  Paid delivery fee (₹25–₹30), small-cart fee (₹15–₹25), handling (₹5) and surge (₹10–₹15).
+                  Paid delivery fee (₹20–₹30), small-cart fee (₹15–₹25), handling (₹5–₹6) and surge (₹10–₹15).
                 </p>
                 <div className="pt-2 flex justify-between text-xs">
                   <span className="text-slate-500">Total Fees Paid:</span>
@@ -432,7 +430,7 @@ export const Analyzer = () => {
                   </span>
                 </div>
                 <p className="text-[11px] text-emerald-800">
-                  Added chips, soda, energy drinks and chocolates just to reach the ₹199 threshold.
+                  Added chips, large coffee, milk sachets, sodas, and chocolates just to reach the ₹199 threshold.
                 </p>
                 <div className="pt-2 flex justify-between text-xs">
                   <span className="text-emerald-700">Total Wasted Extra Spend:</span>
@@ -451,7 +449,7 @@ export const Analyzer = () => {
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="font-bold text-slate-900 text-sm">Collected Fieldwork Records (data.csv)</h3>
-                <p className="text-[11px] text-slate-500">22 authentic student entries with exact room and purchase details</p>
+                <p className="text-[11px] text-slate-500">25 authentic student entries from Hostel L (Block E and Block F)</p>
               </div>
             </div>
 
@@ -473,7 +471,7 @@ export const Analyzer = () => {
                     <tr key={r.orderId} className="hover:bg-slate-50/80">
                       <td className="p-2.5 font-bold text-slate-900">{r.orderId}</td>
                       <td className="p-2.5 font-semibold text-slate-800">{r.studentName}</td>
-                      <td className="p-2.5 text-slate-500">{r.hostel} ({r.room})</td>
+                      <td className="p-2.5 text-slate-500">{r.hostel} ({r.block}, {r.room})</td>
                       <td className="p-2.5">{r.platform}</td>
                       <td className="p-2.5 text-slate-600 max-w-xs truncate">{r.itemsNeeded}</td>
                       <td className="p-2.5">
