@@ -6,8 +6,8 @@
 ---
 
 ## 🚀 3-Minute Video Demonstration
-[![OrderMate Demo Video](https://img.shields.io/badge/Demo_Video-Watch_Screen_Recording-emerald?style=for-the-badge&logo=youtube)](https://youtu.be/placeholder_ordermate_demo)  
-*(Demo link placeholder: `[Link to 3-minute screen recording: https://youtu.be/placeholder_ordermate_demo]`)*
+[![OrderMate Demo Video](https://img.shields.io/badge/Demo_Video-Watch_Screen_Recording-emerald?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/1bUuIRq8GncERcv9v0SbFt_41-csE159y/view?usp=sharing)  
+*(Demo link placeholder: `[Link to 3-minute screen recording: https://drive.google.com/file/d/1bUuIRq8GncERcv9v0SbFt_41-csE159y/view?usp=sharing`)*
 
 ---
 
